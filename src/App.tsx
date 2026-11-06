@@ -8,11 +8,11 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { I18nProvider } from '@/src/i18n/context';
 import { CartProvider } from '@/src/hooks/useCart';
 
-// Layouts
+// Independent Layouts
 import { CustomerLayout } from '@/src/components/layout/CustomerLayout';
 import { AdminLayout } from '@/src/components/layout/AdminLayout';
 
-// Customer Pages
+// Customer Pages (Store Route Group)
 import HomePage from '@/src/app/(store)/page';
 import MenuPage from '@/src/app/(store)/menu/page';
 import CartPage from '@/src/app/(store)/cart/page';
@@ -21,7 +21,7 @@ import ReservationsPage from '@/src/app/(store)/reservations/page';
 import AboutPage from '@/src/app/(store)/about/page';
 import ContactPage from '@/src/app/(store)/contact/page';
 
-// Admin Pages
+// Admin Dashboard Pages (Admin Route Group)
 import AdminOverviewPage from '@/src/app/admin/page';
 import AdminOrdersPage from '@/src/app/admin/orders/page';
 import AdminReservationsPage from '@/src/app/admin/reservations/page';
@@ -38,139 +38,33 @@ export default function App() {
       <CartProvider>
         <BrowserRouter>
           <Routes>
-            {/* Customer Facing Routes (Store Layout) */}
-            <Route
-              path="/"
-              element={
-                <CustomerLayout>
-                  <HomePage />
-                </CustomerLayout>
-              }
-            />
-            <Route
-              path="/menu"
-              element={
-                <CustomerLayout>
-                  <MenuPage />
-                </CustomerLayout>
-              }
-            />
-            <Route
-              path="/cart"
-              element={
-                <CustomerLayout>
-                  <CartPage />
-                </CustomerLayout>
-              }
-            />
-            <Route
-              path="/checkout"
-              element={
-                <CustomerLayout>
-                  <CheckoutPage />
-                </CustomerLayout>
-              }
-            />
-            <Route
-              path="/reservations"
-              element={
-                <CustomerLayout>
-                  <ReservationsPage />
-                </CustomerLayout>
-              }
-            />
-            <Route
-              path="/about"
-              element={
-                <CustomerLayout>
-                  <AboutPage />
-                </CustomerLayout>
-              }
-            />
-            <Route
-              path="/contact"
-              element={
-                <CustomerLayout>
-                  <ContactPage />
-                </CustomerLayout>
-              }
-            />
+            {/* 1. CUSTOMER WEBSITE ROUTE GROUP */}
+            {/* Dedicated CustomerLayout with public navbar & footer, strictly zero admin controls */}
+            <Route element={<CustomerLayout />}>
+              <Route path="/" element={<HomePage />} />
+              <Route path="/menu" element={<MenuPage />} />
+              <Route path="/cart" element={<CartPage />} />
+              <Route path="/checkout" element={<CheckoutPage />} />
+              <Route path="/reservations" element={<ReservationsPage />} />
+              <Route path="/about" element={<AboutPage />} />
+              <Route path="/contact" element={<ContactPage />} />
+            </Route>
 
-            {/* Admin Dashboard Routes (Admin Layout) */}
-            <Route
-              path="/admin"
-              element={
-                <AdminLayout>
-                  <AdminOverviewPage />
-                </AdminLayout>
-              }
-            />
-            <Route
-              path="/admin/orders"
-              element={
-                <AdminLayout>
-                  <AdminOrdersPage />
-                </AdminLayout>
-              }
-            />
-            <Route
-              path="/admin/reservations"
-              element={
-                <AdminLayout>
-                  <AdminReservationsPage />
-                </AdminLayout>
-              }
-            />
-            <Route
-              path="/admin/dishes"
-              element={
-                <AdminLayout>
-                  <AdminDishesPage />
-                </AdminLayout>
-              }
-            />
-            <Route
-              path="/admin/categories"
-              element={
-                <AdminLayout>
-                  <AdminCategoriesPage />
-                </AdminLayout>
-              }
-            />
-            <Route
-              path="/admin/customers"
-              element={
-                <AdminLayout>
-                  <AdminCustomersPage />
-                </AdminLayout>
-              }
-            />
-            <Route
-              path="/admin/gallery"
-              element={
-                <AdminLayout>
-                  <AdminGalleryPage />
-                </AdminLayout>
-              }
-            />
-            <Route
-              path="/admin/content"
-              element={
-                <AdminLayout>
-                  <AdminContentPage />
-                </AdminLayout>
-              }
-            />
-            <Route
-              path="/admin/settings"
-              element={
-                <AdminLayout>
-                  <AdminSettingsPage />
-                </AdminLayout>
-              }
-            />
+            {/* 2. ADMIN DASHBOARD ROUTE GROUP */}
+            {/* Dedicated AdminLayout with management sidebar & topbar, strictly zero customer navbar/footer */}
+            <Route path="/admin" element={<AdminLayout />}>
+              <Route index element={<AdminOverviewPage />} />
+              <Route path="orders" element={<AdminOrdersPage />} />
+              <Route path="reservations" element={<AdminReservationsPage />} />
+              <Route path="dishes" element={<AdminDishesPage />} />
+              <Route path="categories" element={<AdminCategoriesPage />} />
+              <Route path="customers" element={<AdminCustomersPage />} />
+              <Route path="gallery" element={<AdminGalleryPage />} />
+              <Route path="content" element={<AdminContentPage />} />
+              <Route path="settings" element={<AdminSettingsPage />} />
+            </Route>
 
-            {/* Fallback */}
+            {/* Fallback redirect */}
             <Route path="*" element={<Navigate to="/" replace />} />
           </Routes>
         </BrowserRouter>
