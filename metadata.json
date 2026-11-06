@@ -1,0 +1,6 @@
+{
+  "name": "REUGARI — Gastronomic Restaurant & Admin Platform",
+  "description": "Premium modern Uzbek restaurant platform in Tashkent. Features customer dining, online menu orders, reservations, and comprehensive admin dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

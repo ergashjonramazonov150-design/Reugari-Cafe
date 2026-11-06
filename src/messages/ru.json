@@ -1,0 +1,73 @@
+{
+  "brand": {
+    "name": "REUGARI",
+    "tagline": "Гастрономический Ресторан",
+    "location": "Ташкент",
+    "subtitle": "Панель Управления • Ташкент",
+    "openStatus": "Ресторан открыт",
+    "openHours": "11:00 — 23:00"
+  },
+  "nav": {
+    "home": "Главная",
+    "about": "О нас",
+    "menu": "Меню",
+    "reservations": "Бронирование",
+    "contact": "Контакты",
+    "cart": "Корзина",
+    "bookTable": "Забронировать стол",
+    "admin": "Управление"
+  },
+  "adminNav": {
+    "overview": "Обзор",
+    "orders": "Заказы",
+    "reservations": "Бронирования",
+    "dishes": "Меню блюд",
+    "categories": "Категории",
+    "customers": "Клиенты",
+    "gallery": "Галерея и контент",
+    "content": "Контент",
+    "settings": "Настройки",
+    "logout": "Выйти из системы"
+  },
+  "common": {
+    "currency": "сум",
+    "portion": "порция",
+    "search": "Поиск...",
+    "filter": "Фильтр",
+    "all": "Все",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "add": "Добавить",
+    "loading": "Загрузка...",
+    "subtotal": "Промежуточный итог",
+    "serviceFee": "Сервисный сбор (10%)",
+    "deliveryFee": "Доставка",
+    "total": "Итого к оплате",
+    "checkout": "Оформить заказ",
+    "clearCart": "Очистить корзину",
+    "emptyCart": "Корзина пуста. Выберите изысканные блюда из нашего меню.",
+    "addToCart": "В корзину",
+    "halalBadge": "100% Халяль ингредиенты",
+    "chefSpecial": "Выбор шефа",
+    "newDish": "Новинки",
+    "halalCertified": "Халяль сертифицировано"
+  },
+  "categories": {
+    "milliy": "Национальные блюда",
+    "shorva": "Супы",
+    "kabob": "Шашлыки",
+    "salat": "Салаты",
+    "shirinlik": "Десерты",
+    "ichimlik": "Напитки"
+  },
+  "contact": {
+    "address": "г. Ташкент, Мирабадский район, ул. Афросиёб, 14",
+    "phone": "+998 71 200 88 00",
+    "email": "concierge@reugari.uz",
+    "weekdays": "Понедельник – Четверг: 18:00 – 00:00",
+    "weekends": "Пятница – Воскресенье: 17:00 – 01:00",
+    "dressCode": "Дресс-код: Elegant Casual"
+  }
+}

@@ -1,0 +1,968 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="uz"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;family=Inter:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"outline":"#998f81","on-secondary":"#32302b","surface":"#131311","surface-tint":"#e4c287","secondary-container":"#4c4943","tertiary":"#cec5b7","on-error":"#690005","surface-container-lowest":"#0e0e0c","on-primary-container":"#473204","on-primary-fixed":"#271900","surface-bright":"#3a3937","surface-container-high":"#2a2a28","background":"#131311","primary":"#e4c287","on-tertiary-fixed-variant":"#4c463b","surface-dim":"#131311","error":"#ffb4ab","on-secondary-container":"#bdb8b0","surface-container-highest":"#353532","inverse-primary":"#745a2a","secondary":"#cbc6be","primary-container":"#b99a63","outline-variant":"#4d463a","tertiary-fixed-dim":"#cec5b7","on-tertiary-fixed":"#1f1b12","secondary-fixed-dim":"#cbc6be","on-primary-fixed-variant":"#5a4314","surface-container":"#20201e","on-tertiary-container":"#3a352b","on-secondary-fixed-variant":"#494641","on-primary":"#412d01","primary-fixed":"#ffdea7","on-secondary-fixed":"#1d1b17","on-background":"#e5e2de","primary-fixed-dim":"#e4c287","on-error-container":"#ffdad6","secondary-fixed":"#e7e2da","error-container":"#93000a","surface-container-low":"#1c1c1a","tertiary-fixed":"#ebe1d3","inverse-surface":"#e5e2de","on-surface-variant":"#d0c5b6","tertiary-container":"#a59d90","on-surface":"#e5e2de","on-tertiary":"#353026","surface-variant":"#353532","inverse-on-surface":"#31302e"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"margin":"4rem","gutter-mobile":"1rem","space-lg":"2.5rem","space-sm":"0.75rem","space-xs":"0.375rem","gutter":"1.5rem","margin-mobile":"1.25rem","space-md":"1.5rem","space-xl":"4rem"},"fontFamily":{"headline-lg-mobile":["EB Garamond"],"body-md":["Inter"],"headline-md":["EB Garamond"],"headline-lg":["EB Garamond"],"body-sm":["Inter"],"headline-xl-mobile":["EB Garamond"],"label-md":["Inter"],"headline-sm":["EB Garamond"],"label-sm":["Inter"],"headline-xl":["EB Garamond"],"body-lg":["Inter"]},"fontSize":{"headline-lg-mobile":["28px",{"lineHeight":"34px","letterSpacing":"0em","fontWeight":"400"}],"body-md":["15px",{"lineHeight":"24px","letterSpacing":"0.01em","fontWeight":"400"}],"headline-md":["28px",{"lineHeight":"36px","letterSpacing":"0.01em","fontWeight":"400"}],"headline-lg":["40px",{"lineHeight":"48px","letterSpacing":"0em","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"20px","letterSpacing":"0.02em","fontWeight":"400"}],"headline-xl-mobile":["38px",{"lineHeight":"44px","letterSpacing":"-0.01em","fontWeight":"400"}],"label-md":["11px",{"lineHeight":"14px","letterSpacing":"0.18em","fontWeight":"500"}],"headline-sm":["22px",{"lineHeight":"28px","letterSpacing":"0.02em","fontWeight":"500"}],"label-sm":["10px",{"lineHeight":"12px","letterSpacing":"0.22em","fontWeight":"600"}],"headline-xl":["56px",{"lineHeight":"64px","letterSpacing":"-0.01em","fontWeight":"400"}],"body-lg":["17px",{"lineHeight":"28px","letterSpacing":"0.01em","fontWeight":"300"}]}}}};</script></head><body class="bg-surface text-on-surface selection:bg-primary-container selection:text-on-primary-container antialiased min-h-screen"><header class="fixed top-0 left-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 w-full max-w-7xl mx-auto px-margin-mobile md:px-margin flex items-center justify-between gap-gutter"><a class="flex flex-col items-start focus:outline-none group" data-path="bosh-sahifa" href="#"><span class="font-headline-sm text-headline-sm tracking-[0.2em] text-primary group-hover:text-primary-fixed-dim transition-colors uppercase">REUGARI</span><span class="font-label-sm text-label-sm uppercase tracking-[0.25em] text-tertiary-container">Gastronomik Restoran</span></a><nav class="hidden lg:flex items-center gap-space-md" data-active-classes="text-primary font-medium border-b border-primary pb-1"><a class="font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="bosh-sahifa" href="#">Bosh sahifa</a><a class="font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="biz-haqimizda" href="#">Biz haqimizda</a><a aria-current="page" class="uppercase transition-colors py-1 text-primary font-medium border-b border-primary pb-1" data-path="menyu" href="#">Menyu</a><a class="font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="bron-qilish" href="#">Bron qilish</a><a class="font-label-md text-label-md uppercase text-on-surface-variant hover:text-on-surface transition-colors py-1" data-path="aloqa" href="#">Aloqa</a></nav><div class="flex items-center gap-space-sm"><div class="flex items-center p-1 bg-surface-container-low"><a class="px-2 py-1 font-label-sm text-label-sm uppercase bg-surface-container-highest text-primary" href="#">UZ</a><a class="px-2 py-1 font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-on-surface transition-colors" href="#">EN</a><a class="px-2 py-1 font-label-sm text-label-sm uppercase text-on-surface-variant hover:text-on-surface transition-colors" href="#">RU</a></div><a class="relative p-2 text-on-surface-variant hover:text-primary transition-colors flex items-center justify-center" data-path="savatcha" href="#" title="Savatcha"><span class="material-symbols-outlined text-[22px]">shopping_bag</span><span class="absolute top-1 right-1 w-2 h-2 rounded-full bg-primary"></span></a><a class="hidden sm:inline-flex items-center justify-center bg-primary-container text-on-primary-container px-space-md py-space-xs font-label-md text-label-md uppercase tracking-[0.18em] hover:bg-primary transition-colors" data-path="bron-qilish" href="#">Stolni band qilish</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center ml-1"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- Subtle Architectural Atmospheric Glows -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-32 left-1/4 w-96 h-96 bg-primary/10 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute top-96 right-10 w-80 h-80 bg-primary-container/10 rounded-full blur-3xl pointer-events-none"></div>
+<!-- Editorial Intro & Curated Filter Banner -->
+<section class="w-full max-w-7xl mx-auto px-margin-mobile md:px-margin pt-8 md:pt-12 pb-10">
+<div class="flex flex-col lg:flex-row lg:items-end justify-between gap-8 pb-8">
+<div class="max-w-3xl">
+<div class="flex items-center gap-3 mb-4">
+<span class="w-8 h-[1px] bg-primary"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.25em] text-primary">REUGARI Oliy Gastronomiyasi</span>
+<span class="px-2 py-0.5 bg-surface-container-high text-primary font-label-sm text-label-sm uppercase tracking-wider">Toshkent</span>
+</div>
+<h1 class="font-headline-xl text-headline-xl text-on-surface mb-3 tracking-tight">Taomlar menyusi</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+            Sharqona mehmondo‘stlik va zamonaviy gastronomiya uyg‘unligi — saralangan milliy hamda mualliflik taomlari.
+          </p>
+</div>
+<!-- Quick Search & Interactive Input -->
+<div class="w-full lg:w-96 flex flex-col gap-3">
+<div class="relative bg-surface-container-low px-4 py-3 flex items-center gap-3 transition-colors duration-200 focus-within:bg-surface-container">
+<span class="material-symbols-outlined text-primary text-[20px]">search</span>
+<input class="w-full bg-transparent text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none" id="menuSearchInput" placeholder="Taom qidirish..." type="text"/>
+<span class="flex items-center gap-1 px-2 py-1 bg-surface-container-high text-primary font-label-sm text-label-sm uppercase tracking-wider">
+<span class="material-symbols-outlined text-[14px]">tune</span>
+              Filtr
+            </span>
+</div>
+<div class="flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span>Mavsumiy yangilanish: 2025 Bahor</span>
+<span class="text-primary tracking-wide">100% Halol ingredientlar</span>
+</div>
+</div>
+</div>
+<!-- Editorial Filter Badges -->
+<div class="flex flex-wrap items-center gap-2 pt-2">
+<button class="filter-tag px-4 py-2 bg-primary text-on-primary font-label-sm text-label-sm uppercase tracking-[0.2em] transition-all">
+          Barchasi
+        </button>
+<button class="filter-tag px-4 py-2 bg-surface-container-low text-on-surface-variant hover:text-primary hover:bg-surface-container font-label-sm text-label-sm uppercase tracking-[0.2em] transition-all flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px] text-primary">star</span>
+          Oshpaz tavsiyasi
+        </button>
+<button class="filter-tag px-4 py-2 bg-surface-container-low text-on-surface-variant hover:text-primary hover:bg-surface-container font-label-sm text-label-sm uppercase tracking-[0.2em] transition-all flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px] text-primary">arrow_back_ios_new</span>
+          Yangi taomlar
+        </button>
+<button class="filter-tag px-4 py-2 bg-surface-container-low text-on-surface-variant hover:text-primary hover:bg-surface-container font-label-sm text-label-sm uppercase tracking-[0.2em] transition-all flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px] text-primary">verified</span>
+          Halol sertifikatlangan
+        </button>
+</div>
+</section>
+<!-- Category Navigation Strip -->
+<section class="w-full bg-surface-container-lowest sticky top-20 z-40 shadow-sm">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-margin">
+<div class="flex items-center gap-1 md:gap-4 overflow-x-auto py-2 scrollbar-none" id="categoryNav">
+<button class="category-btn whitespace-nowrap px-4 py-3 font-label-md text-label-md uppercase tracking-[0.2em] text-primary bg-surface-container transition-colors flex items-center gap-2" data-cat="milliy">
+<span class="material-symbols-outlined text-[16px]">restaurant</span>
+            Milliy taomlar
+          </button>
+<button class="category-btn whitespace-nowrap px-4 py-3 font-label-md text-label-md uppercase tracking-[0.2em] text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors flex items-center gap-2" data-cat="shorva">
+<span class="material-symbols-outlined text-[16px]">soup_kitchen</span>
+            Sho‘rvalar
+          </button>
+<button class="category-btn whitespace-nowrap px-4 py-3 font-label-md text-label-md uppercase tracking-[0.2em] text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors flex items-center gap-2" data-cat="kabob">
+<span class="material-symbols-outlined text-[16px]">kebab_dining</span>
+            Kaboblar
+          </button>
+<button class="category-btn whitespace-nowrap px-4 py-3 font-label-md text-label-md uppercase tracking-[0.2em] text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors flex items-center gap-2" data-cat="salat">
+<span class="material-symbols-outlined text-[16px]">nutrition</span>
+            Salatlar
+          </button>
+<button class="category-btn whitespace-nowrap px-4 py-3 font-label-md text-label-md uppercase tracking-[0.2em] text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors flex items-center gap-2" data-cat="shirinlik">
+<span class="material-symbols-outlined text-[16px]">bakery_dining</span>
+            Shirinliklar
+          </button>
+<button class="category-btn whitespace-nowrap px-4 py-3 font-label-md text-label-md uppercase tracking-[0.2em] text-on-surface-variant hover:text-on-surface hover:bg-surface-container-low transition-colors flex items-center gap-2" data-cat="ichimlik">
+<span class="material-symbols-outlined text-[16px]">local_bar</span>
+            Ichimliklar
+          </button>
+</div>
+</div>
+</section>
+<!-- Main Ordering Experience: Grid & Dynamic Cart -->
+<main class="w-full max-w-7xl mx-auto px-margin-mobile md:px-margin py-10 md:py-14">
+<div class="grid grid-cols-1 xl:grid-cols-12 gap-8 items-start">
+<!-- Dish Catalog Grid (8 Columns on desktop) -->
+<div class="xl:col-span-8 flex flex-col gap-8">
+<div class="flex items-center justify-between">
+<div class="flex items-baseline gap-3">
+<span class="font-headline-md text-headline-md text-on-surface" id="currentSectionTitle">Milliy taomlar va Shohona dasturxon</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">8 ta taom</span>
+</div>
+<div class="hidden sm:flex items-center gap-2 text-on-surface-variant font-label-sm text-label-sm">
+<span class="material-symbols-outlined text-[16px] text-primary">eco</span>
+<span>Sof tabiiy mahsulotlar</span>
+</div>
+</div>
+<!-- Catalog Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6" id="dishesGrid">
+<!-- Card 1: To'y oshi -->
+<article class="dish-card group bg-surface-container-low flex flex-col justify-between transition-all duration-300 hover:bg-surface-container shadow-md" data-category="milliy">
+<div class="relative overflow-hidden aspect-[16/10] bg-surface-container-high">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Gourmet Uzbek Wedding Plov served in an artisan black ceramic bowl. Steaming golden lazer rice, tender chunks of dry-aged mountain lamb, sweet yellow carrots, plump chickpeas, dark raisins, and delicate quail eggs garnished with fresh pomegranate seeds. Dim atmospheric moody lighting, warm amber and gold highlights, dark walnut background, Michelin star fine dining presentation." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-K5Cd5PcKTPO8A3ki7AxJ-v_3dI9HG8JZhRgv0ejR6-xhEGUjIsfD51v8-8yt8XnTXM-WCt_SMCXZSd1N-d5yM5cSE5Km6hpF_APtYOvFatNZXSa3FNe6lR4vf2-Q94QfYhx-b3bmzFCgWqXEaA6tZs5dSPQAC1SR-XUJhlWZD4MofF3DcHrJOkJ2Tyh3X_Ie8tb1rVMJy9faoy3QUTM8iO4TMa3ayq1COoJMZWDD"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent opacity-80"></div>
+<div class="absolute top-3 left-3 flex flex-wrap gap-2">
+<span class="px-2.5 py-1 bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm uppercase tracking-wider">
+                    Oshpaz tavsiyasi
+                  </span>
+<span class="px-2 py-0.5 bg-surface/80 backdrop-blur text-on-surface font-label-sm text-label-sm uppercase tracking-wide">
+                    Toshkentcha
+                  </span>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div>
+<div class="flex items-start justify-between gap-2 mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">To‘y oshi (Toshkentcha)</h3>
+<span class="font-label-md text-label-md text-primary whitespace-nowrap">95 000 so‘m</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 leading-relaxed">
+                    Lazer guruchi, sarxil qo‘y go‘shti, sariq sabzi, no‘xat, mayiz va bedana tuxumlari bilan tayyorlangan shohona osh.
+                  </p>
+</div>
+<div class="flex items-center justify-between text-tertiary-container font-label-sm text-label-sm pt-2">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">scale</span> 450 g
+                  </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">local_fire_department</span> 680 kkal
+                  </span>
+<span class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[14px]">timer</span> 25 daqiqa
+                  </span>
+</div>
+<div class="pt-4 flex items-center justify-between gap-3">
+<div class="flex items-center bg-surface-container-high px-2 py-1">
+<button class="qty-btn-minus text-on-surface hover:text-primary px-2 py-1 font-body-sm transition-colors" data-id="1" type="button">−</button>
+<span class="qty-display px-3 font-body-sm text-body-sm text-on-surface font-medium" data-id="1">1</span>
+<button class="qty-btn-plus text-on-surface hover:text-primary px-2 py-1 font-body-sm transition-colors" data-id="1" type="button">+</button>
+</div>
+<button class="add-to-cart-btn flex-1 bg-primary text-on-primary hover:bg-primary-fixed-dim px-4 py-2.5 font-label-md text-label-md uppercase tracking-[0.16em] transition-all flex items-center justify-center gap-2" data-id="1" data-name="To‘y oshi (Toshkentcha)" data-price="95000" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+                    Savatchaga qo‘shish
+                  </button>
+</div>
+</div>
+</article>
+<!-- Card 2: G'ijduvoncha qiyma kabob -->
+<article class="dish-card group bg-surface-container-low flex flex-col justify-between transition-all duration-300 hover:bg-surface-container shadow-md" data-category="kabob">
+<div class="relative overflow-hidden aspect-[16/10] bg-surface-container-high">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Artisanal Uzbek skewers of Gijduvon minced lamb and beef kebab grilled over open charcoal embers. Served on thin hot clay-oven tandir bread, sprinkled with sumac spices, rings of thin sliced sweet onions and fresh cilantro leaves. Dramatic dark culinary scene, charcoal sparks in background, deep shadows, fine dining styling." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBz2Ec7PJPeA_caUGOYBekylGZ_YCaxWw25giQQ3vSw_-b6-c6XF2eDaN0Uw0J66K6M5q5WbvDGtHnhJNodChGMFXVYroJPs2Zh2MOm9_MvzFRcmYL4y3Uge_zUA4G9VjLKEuLu61MtlvUnQ1Kcco2G88BDq6zWxvfoXnyETa6oFCkWW-b4CjzY07olLeKdtY66nBscuRa5Fdi8MycsNF7amBpZq4p9-GIfkUZAth8"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent opacity-80"></div>
+<div class="absolute top-3 left-3 flex flex-wrap gap-2">
+<span class="px-2.5 py-1 bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm uppercase tracking-wider">
+                    An’anaviy retsept
+                  </span>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div>
+<div class="flex items-start justify-between gap-2 mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">G‘ijduvoncha qiyma kabob</h3>
+<span class="font-label-md text-label-md text-primary whitespace-nowrap">85 000 so‘m</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 leading-relaxed">
+                    Yumshoq mol va qo‘y go‘shti qiymasi, maxsus ziravorlar va tandir noni bilan.
+                  </p>
+</div>
+<div class="flex items-center justify-between text-tertiary-container font-label-sm text-label-sm pt-2">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">scale</span> 300 g
+                  </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">local_fire_department</span> 520 kkal
+                  </span>
+<span class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[14px]">skillet</span> Ko‘mirda
+                  </span>
+</div>
+<div class="pt-4 flex items-center justify-between gap-3">
+<div class="flex items-center bg-surface-container-high px-2 py-1">
+<button class="qty-btn-minus text-on-surface hover:text-primary px-2 py-1 font-body-sm transition-colors" data-id="2" type="button">−</button>
+<span class="qty-display px-3 font-body-sm text-body-sm text-on-surface font-medium" data-id="2">1</span>
+<button class="qty-btn-plus text-on-surface hover:text-primary px-2 py-1 font-body-sm transition-colors" data-id="2" type="button">+</button>
+</div>
+<button class="add-to-cart-btn flex-1 bg-primary text-on-primary hover:bg-primary-fixed-dim px-4 py-2.5 font-label-md text-label-md uppercase tracking-[0.16em] transition-all flex items-center justify-center gap-2" data-id="2" data-name="G‘ijduvoncha qiyma kabob" data-price="85000" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+                    Savatchaga qo‘shish
+                  </button>
+</div>
+</div>
+</article>
+<!-- Card 3: Qozon kabob -->
+<article class="dish-card group bg-surface-container-low flex flex-col justify-between transition-all duration-300 hover:bg-surface-container shadow-md" data-category="kabob">
+<div class="relative overflow-hidden aspect-[16/10] bg-surface-container-high">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Exquisite plate of Uzbek Kazan Kabob. Tender caramelized lamb ribs braised and crisped in a traditional cast iron wok cauldron, whole golden glazed baby potatoes seasoned with wild mountain cumin and coriander, garnished with macerated red onion ribbons. Served on artisanal glazed ceramic plate with low-key warm illumination." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBROgfKhCt12JX_rmwiJNiFMExEtwBEGHNVzbAFxzd_2mVCoPMrwLB7s2DGedVUUQxia8n_jIhufXEdtNwlUrNL4ga-2xF73AN67jRKB5Fz1w44uAdokf8QXaLYn6JRMfCkXbWQaHAWAmMf9OiqQWIieRgt9cl9kSpguQxe0qYRB26y6qbiPDvhlEtq1yL2b3nk2DkH_P6xtITTbLdrwkhTqGbZOVEgJTi7zZXTRfdt"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent opacity-80"></div>
+<div class="absolute top-3 left-3 flex flex-wrap gap-2">
+<span class="px-2.5 py-1 bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm uppercase tracking-wider">
+                    Shohona tanlov
+                  </span>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div>
+<div class="flex items-start justify-between gap-2 mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Qozon kabob</h3>
+<span class="font-label-md text-label-md text-primary whitespace-nowrap">120 000 so‘m</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 leading-relaxed">
+                    Qovurilgan yosh qo‘zichoq qovurg‘alari, qizartirilgan tillarang kartoshka va marinadlangan piyoz.
+                  </p>
+</div>
+<div class="flex items-center justify-between text-tertiary-container font-label-sm text-label-sm pt-2">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">scale</span> 480 g
+                  </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">local_fire_department</span> 740 kkal
+                  </span>
+<span class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[14px]">local_fire_department</span> Qozonda
+                  </span>
+</div>
+<div class="pt-4 flex items-center justify-between gap-3">
+<div class="flex items-center bg-surface-container-high px-2 py-1">
+<button class="qty-btn-minus text-on-surface hover:text-primary px-2 py-1 font-body-sm transition-colors" data-id="3" type="button">−</button>
+<span class="qty-display px-3 font-body-sm text-body-sm text-on-surface font-medium" data-id="3">1</span>
+<button class="qty-btn-plus text-on-surface hover:text-primary px-2 py-1 font-body-sm transition-colors" data-id="3" type="button">+</button>
+</div>
+<button class="add-to-cart-btn flex-1 bg-primary text-on-primary hover:bg-primary-fixed-dim px-4 py-2.5 font-label-md text-label-md uppercase tracking-[0.16em] transition-all flex items-center justify-center gap-2" data-id="3" data-name="Qozon kabob" data-price="120000" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+                    Savatchaga qo‘shish
+                  </button>
+</div>
+</div>
+</article>
+<!-- Card 4: Xon mantisi -->
+<article class="dish-card group bg-surface-container-low flex flex-col justify-between transition-all duration-300 hover:bg-surface-container shadow-md" data-category="milliy">
+<div class="relative overflow-hidden aspect-[16/10] bg-surface-container-high">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Steaming handmade Uzbek Manti dumplings arranged elegantly in a traditional carved wooden steamer box. Translucent paper-thin dough filled with hand-chopped succulent beef, lamb and tail fat, served alongside natural thick sour cream yogurt and spicy sun-dried tomato herb sauce. Intimate restaurant ambiance, soft steam rising." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAttYu39Gf_PVkITrmzfY8JEEw1tv2SpNFu-X_sSVq-kPIOG63M7cIaINoBiQOVsKPZJP-K89jcMkyzD0debnwjmIcZz-KDEmAGenH8sFZZ05PGCZcPWp9x1KdHXRyEFizNjNWCh0tunmgKs57VdwiTWaCfQiM16J2SwDhK9n84A0N2nqply6NL_arx92UptlAWSVRKOrOQeTfzGnQjxMqzsMpGDECxwMWnVcTT-o_e"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent opacity-80"></div>
+<div class="absolute top-3 left-3 flex flex-wrap gap-2">
+<span class="px-2.5 py-1 bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm uppercase tracking-wider">
+                    Qo‘l mehnati
+                  </span>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div>
+<div class="flex items-start justify-between gap-2 mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Xon mantisi (5 dona)</h3>
+<span class="font-label-md text-label-md text-primary whitespace-nowrap">75 000 so‘m</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 leading-relaxed">
+                    Qo‘lda yupqa yoyilgan xamir, mayin go‘sht va dumg‘aza yog‘i, qatiq va pomidor sousi bilan.
+                  </p>
+</div>
+<div class="flex items-center justify-between text-tertiary-container font-label-sm text-label-sm pt-2">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">scale</span> 400 g
+                  </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">local_fire_department</span> 490 kkal
+                  </span>
+<span class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[14px]">water_drop</span> Bug‘da pishgan
+                  </span>
+</div>
+<div class="pt-4 flex items-center justify-between gap-3">
+<div class="flex items-center bg-surface-container-high px-2 py-1">
+<button class="qty-btn-minus text-on-surface hover:text-primary px-2 py-1 font-body-sm transition-colors" data-id="4" type="button">−</button>
+<span class="qty-display px-3 font-body-sm text-body-sm text-on-surface font-medium" data-id="4">1</span>
+<button class="qty-btn-plus text-on-surface hover:text-primary px-2 py-1 font-body-sm transition-colors" data-id="4" type="button">+</button>
+</div>
+<button class="add-to-cart-btn flex-1 bg-primary text-on-primary hover:bg-primary-fixed-dim px-4 py-2.5 font-label-md text-label-md uppercase tracking-[0.16em] transition-all flex items-center justify-center gap-2" data-id="4" data-name="Xon mantisi (5 dona)" data-price="75000" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+                    Savatchaga qo‘shish
+                  </button>
+</div>
+</div>
+</article>
+<!-- Card 5: Chuchvara sho'rva -->
+<article class="dish-card group bg-surface-container-low flex flex-col justify-between transition-all duration-300 hover:bg-surface-container shadow-md" data-category="shorva">
+<div class="relative overflow-hidden aspect-[16/10] bg-surface-container-high">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Clarified Uzbek Chuchvara miniature meat dumpling soup served in a handcrafted dark bronze and ceramic bowl. Rich amber-tinted clear beef broth, delicate thimble-sized dumplings, fresh dill, purple basil leaves, and golden rendered butter droplets glistening on the soup surface. Haute cuisine presentation, dim atmospheric light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBrBXjqbnPM8jZnkfdYkR6F5U6OpFdW12JgN24youHuTpMK6t8VluMHkNFLtFbPdshiSWHGM8UHLy8Z6BUlnAo4uDz3P0dLMgRexnRcfGUXAWogXBG1A-2GJ3SZACqmRgjob65RV8Y2j7_4wB428iU2us7T1A9XwUwv4r20aVj2MDmoC4Rncg7f6oX1ihkccMRnY5eDTlUgN7wccAPYKRVD9EsWReAUCGGLJQtgyhac"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent opacity-80"></div>
+<div class="absolute top-3 left-3 flex flex-wrap gap-2">
+<span class="px-2.5 py-1 bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm uppercase tracking-wider">
+                    Sho‘rvalar
+                  </span>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div>
+<div class="flex items-start justify-between gap-2 mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Chuchvara sho‘rva</h3>
+<span class="font-label-md text-label-md text-primary whitespace-nowrap">65 000 so‘m</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 leading-relaxed">
+                    Tiniq go‘sht bulyoni, mayda tugilgan xushbo‘y chuchvaralar va yangi ko‘katlar.
+                  </p>
+</div>
+<div class="flex items-center justify-between text-tertiary-container font-label-sm text-label-sm pt-2">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">scale</span> 350 ml
+                  </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">local_fire_department</span> 340 kkal
+                  </span>
+<span class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[14px]">soup_kitchen</span> Mayda tugilgan
+                  </span>
+</div>
+<div class="pt-4 flex items-center justify-between gap-3">
+<div class="flex items-center bg-surface-container-high px-2 py-1">
+<button class="qty-btn-minus text-on-surface hover:text-primary px-2 py-1 font-body-sm transition-colors" data-id="5" type="button">−</button>
+<span class="qty-display px-3 font-body-sm text-body-sm text-on-surface font-medium" data-id="5">1</span>
+<button class="qty-btn-plus text-on-surface hover:text-primary px-2 py-1 font-body-sm transition-colors" data-id="5" type="button">+</button>
+</div>
+<button class="add-to-cart-btn flex-1 bg-primary text-on-primary hover:bg-primary-fixed-dim px-4 py-2.5 font-label-md text-label-md uppercase tracking-[0.16em] transition-all flex items-center justify-center gap-2" data-id="5" data-name="Chuchvara sho‘rva" data-price="65000" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+                    Savatchaga qo‘shish
+                  </button>
+</div>
+</div>
+</article>
+<!-- Card 6: Mastava -->
+<article class="dish-card group bg-surface-container-low flex flex-col justify-between transition-all duration-300 hover:bg-surface-container shadow-md" data-category="shorva">
+<div class="relative overflow-hidden aspect-[16/10] bg-surface-container-high">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Traditional hearty Uzbek Mastava soup presented in a dark rustic ceramic bowl. Sautéed lamb cubes with aromatic rice, cubed root vegetables, ripe summer tomatoes and wild herbs in a rich simmering broth, finished with a swirl of strained Suzma mountain yogurt. Warm candlelight atmosphere, editorial food photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBrZYr0r47zS53xJK66WPl2VvMk-OCeDKt9KNq2TDo8fC7j4Ru2Ikbmq8h88SVVR8OB2KklcBTvhcIEKNt1iDcp87v6gFemIOgzyNB0poS8PFVKUlopvADFmFuzUTPOxwpDxnCuvHdM85NL-M1v1NwWbHB21yKY9Wh2rahs2tingW4v_SiY3_tLF0RYClXtDTffGHm8e2s1rejJG3rXJXDqkvA1SkTLsgfLMOraCQgI"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent opacity-80"></div>
+<div class="absolute top-3 left-3 flex flex-wrap gap-2">
+<span class="px-2.5 py-1 bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm uppercase tracking-wider">
+                    Klassik taom
+                  </span>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div>
+<div class="flex items-start justify-between gap-2 mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Mastava</h3>
+<span class="font-label-md text-label-md text-primary whitespace-nowrap">60 000 so‘m</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 leading-relaxed">
+                    Qaynatma sho‘rva, guruch, sabzavotlar va sarxil qo‘y go‘shti. Suzma bilan tortiladi.
+                  </p>
+</div>
+<div class="flex items-center justify-between text-tertiary-container font-label-sm text-label-sm pt-2">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">scale</span> 380 ml
+                  </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">local_fire_department</span> 380 kkal
+                  </span>
+<span class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[14px]">psychology_alt</span> Qadimiy
+                  </span>
+</div>
+<div class="pt-4 flex items-center justify-between gap-3">
+<div class="flex items-center bg-surface-container-high px-2 py-1">
+<button class="qty-btn-minus text-on-surface hover:text-primary px-2 py-1 font-body-sm transition-colors" data-id="6" type="button">−</button>
+<span class="qty-display px-3 font-body-sm text-body-sm text-on-surface font-medium" data-id="6">1</span>
+<button class="qty-btn-plus text-on-surface hover:text-primary px-2 py-1 font-body-sm transition-colors" data-id="6" type="button">+</button>
+</div>
+<button class="add-to-cart-btn flex-1 bg-primary text-on-primary hover:bg-primary-fixed-dim px-4 py-2.5 font-label-md text-label-md uppercase tracking-[0.16em] transition-all flex items-center justify-center gap-2" data-id="6" data-name="Mastava" data-price="60000" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+                    Savatchaga qo‘shish
+                  </button>
+</div>
+</div>
+</article>
+<!-- Card 7: Achchiq-chuchuk -->
+<article class="dish-card group bg-surface-container-low flex flex-col justify-between transition-all duration-300 hover:bg-surface-container shadow-md" data-category="salat">
+<div class="relative overflow-hidden aspect-[16/10] bg-surface-container-high">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Uzbek traditional Achchiq-chuchuk salad served in a textured charcoal stone dish. Paper-thin slices of ripe heirloom Uzbek pink tomatoes, gossamer slices of sweet white onion, fresh fragrant purple basil ribbons, dressed with virgin mountain sunflower oil and flakes of sea salt. Bright vibrant contrast against minimalist dark slate backdrop." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXO5D7j8E9iycAd2ulVyyCg5KreODIyG4ogUHDwdKeE3yH0M4XSsxYujrtvAMXkPjPC6Oq28rWnSd7JG0pbq9f0GTvjLY8gAI7VVVC1dvNFNd9dtDpNC4c_c1STDMkLgdUSVTnwjloQyJ9jRKoD6EzHbkevPgqpMOBEwPl58nkLj9F2h-04fDwNEHJfI4QGPmJbqXd3OkR3nk7YFAFvaGLtXIj8lXMmtKbYSkb4LPa"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent opacity-80"></div>
+<div class="absolute top-3 left-3 flex flex-wrap gap-2">
+<span class="px-2.5 py-1 bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm uppercase tracking-wider">
+                    Yangi uzilgan
+                  </span>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div>
+<div class="flex items-start justify-between gap-2 mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Achchiq-chuchuk (Navro‘z)</h3>
+<span class="font-label-md text-label-md text-primary whitespace-nowrap">35 000 so‘m</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 leading-relaxed">
+                    Yozgi sersuv pomidor, yupqa archilgan piyoz va rayhon barglari. Plovning ajralmas hamrohi.
+                  </p>
+</div>
+<div class="flex items-center justify-between text-tertiary-container font-label-sm text-label-sm pt-2">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">scale</span> 220 g
+                  </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">local_fire_department</span> 110 kkal
+                  </span>
+<span class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[14px]">spa</span> Vegan
+                  </span>
+</div>
+<div class="pt-4 flex items-center justify-between gap-3">
+<div class="flex items-center bg-surface-container-high px-2 py-1">
+<button class="qty-btn-minus text-on-surface hover:text-primary px-2 py-1 font-body-sm transition-colors" data-id="7" type="button">−</button>
+<span class="qty-display px-3 font-body-sm text-body-sm text-on-surface font-medium" data-id="7">1</span>
+<button class="qty-btn-plus text-on-surface hover:text-primary px-2 py-1 font-body-sm transition-colors" data-id="7" type="button">+</button>
+</div>
+<button class="add-to-cart-btn flex-1 bg-primary text-on-primary hover:bg-primary-fixed-dim px-4 py-2.5 font-label-md text-label-md uppercase tracking-[0.16em] transition-all flex items-center justify-center gap-2" data-id="7" data-name="Achchiq-chuchuk (Navro‘z)" data-price="35000" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+                    Savatchaga qo‘shish
+                  </button>
+</div>
+</div>
+</article>
+<!-- Card 8: Chak-chak va Samarqand holvasi -->
+<article class="dish-card group bg-surface-container-low flex flex-col justify-between transition-all duration-300 hover:bg-surface-container shadow-md" data-category="shirinlik">
+<div class="relative overflow-hidden aspect-[16/10] bg-surface-container-high">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Artisan Uzbek Chak-Chak dessert pyramid with mountain honey glaze, paired with layered Samarkand marble halva containing pistachios and walnuts. Plated on fine dark brass tray, powdered with crushed green pistachios and dried edible rose petals. High-end pastry styling, warm golden rim lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDP6MsjZySWPNU2yZGB9maaF3RnV6qXTpsDXqRLn5ijZ2GmerZ7UBO2NBOuLpO98qtkGwYC0yluddZn5ddgG5RKzgtuQ0cKLOpC0U4oMH4g7pfkSStU2HDcK19KTIm9oZDelXY1yOEid5HPGa_dD5x1p-asbvPJwx0RPdhQ8HfNrdSLFi2UUfov7XFWyXoZEJKpOcPbgirF_70RyXMGkNHQtJMaadj62H6Fxt5X4m6O"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-container-low via-transparent to-transparent opacity-80"></div>
+<div class="absolute top-3 left-3 flex flex-wrap gap-2">
+<span class="px-2.5 py-1 bg-surface-container-lowest/90 backdrop-blur-md text-primary font-label-sm text-label-sm uppercase tracking-wider">
+                    Shirinlik
+                  </span>
+</div>
+</div>
+<div class="p-6 flex flex-col flex-1 justify-between gap-4">
+<div>
+<div class="flex items-start justify-between gap-2 mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Chak-chak va Samarqand holvasi</h3>
+<span class="font-label-md text-label-md text-primary whitespace-nowrap">45 000 so‘m</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-3 leading-relaxed">
+                    Tabiiy tog‘ asaliga qorilgan qarsildoq xamir shirinligi va yong‘oqli Samarqand holvasi.
+                  </p>
+</div>
+<div class="flex items-center justify-between text-tertiary-container font-label-sm text-label-sm pt-2">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">scale</span> 200 g
+                  </span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">local_fire_department</span> 410 kkal
+                  </span>
+<span class="flex items-center gap-1 text-primary">
+<span class="material-symbols-outlined text-[14px]">hive</span> Tog‘ asali
+                  </span>
+</div>
+<div class="pt-4 flex items-center justify-between gap-3">
+<div class="flex items-center bg-surface-container-high px-2 py-1">
+<button class="qty-btn-minus text-on-surface hover:text-primary px-2 py-1 font-body-sm transition-colors" data-id="8" type="button">−</button>
+<span class="qty-display px-3 font-body-sm text-body-sm text-on-surface font-medium" data-id="8">1</span>
+<button class="qty-btn-plus text-on-surface hover:text-primary px-2 py-1 font-body-sm transition-colors" data-id="8" type="button">+</button>
+</div>
+<button class="add-to-cart-btn flex-1 bg-primary text-on-primary hover:bg-primary-fixed-dim px-4 py-2.5 font-label-md text-label-md uppercase tracking-[0.16em] transition-all flex items-center justify-center gap-2" data-id="8" data-name="Chak-chak va Samarqand holvasi" data-price="45000" type="button">
+<span class="material-symbols-outlined text-[18px]">add_shopping_cart</span>
+                    Savatchaga qo‘shish
+                  </button>
+</div>
+</div>
+</article>
+</div>
+<!-- Culinary Vignette Feature Box -->
+<div class="mt-6 p-8 bg-surface-container-lowest relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-6">
+<div class="absolute -right-10 -bottom-10 w-44 h-44 bg-primary/10 rounded-full blur-2xl pointer-events-none"></div>
+<div class="flex items-start gap-4 z-10">
+<span class="p-3 bg-surface-container text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[28px]">workspace_premium</span>
+</span>
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-primary">Bosh oshpazdan sharh</span>
+<p class="font-headline-sm text-headline-sm text-on-surface mt-1">"Barcha ziravorlarimiz Zarafshon tog‘lari va Samarqand bozorlaridan xos ravishda keltiriladi."</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">Bosh oshpaz: Jamshid Rahimov, Xalqaro Gastronomiya Ordeni sohibi</p>
+</div>
+</div>
+<a class="z-10 whitespace-nowrap px-6 py-3 bg-surface-container hover:bg-surface-bright text-primary font-label-md text-label-md uppercase tracking-[0.18em] transition-colors flex items-center gap-2" href="#rezervatsiya">
+              Dasturxon buyurtma qilish
+              <span class="material-symbols-outlined text-[16px]">arrow_downward</span>
+</a>
+</div>
+</div>
+<!-- Floating Sticky Order Panel / Savatcha (4 Columns on desktop) -->
+<aside class="xl:col-span-4 w-full sticky top-36 z-30">
+<div class="bg-surface-container-low p-6 md:p-8 flex flex-col shadow-xl relative overflow-hidden">
+<div class="flex items-center justify-between pb-5">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[24px]">shopping_bag</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface tracking-wide">Savatcha</h2>
+</div>
+<span class="px-2.5 py-1 bg-surface-container text-primary font-label-sm text-label-sm tracking-wider uppercase" id="cartItemCountBadge">
+                2 ta taom
+              </span>
+</div>
+<!-- Cart Items List Container -->
+<div class="flex flex-col divide-y divide-surface-container py-2 max-h-[380px] overflow-y-auto" id="cartItemsList">
+<!-- Default item 1 -->
+<div class="py-4 flex items-center justify-between gap-3 group" data-cart-row="1">
+<div class="flex flex-col flex-1">
+<span class="font-body-md text-body-md text-on-surface font-medium">To‘y oshi (Toshkentcha)</span>
+<div class="flex items-center gap-2 mt-1">
+<span class="font-label-sm text-label-sm text-primary">95 000 so‘m × <span class="cart-row-qty">2</span></span>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<span class="font-label-md text-label-md text-on-surface font-semibold whitespace-nowrap">190 000 so‘m</span>
+<button class="cart-remove-btn text-outline hover:text-error transition-colors p-1" data-remove-id="1" title="O‘chirish" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+</div>
+<!-- Default item 2 -->
+<div class="py-4 flex items-center justify-between gap-3 group" data-cart-row="7">
+<div class="flex flex-col flex-1">
+<span class="font-body-md text-body-md text-on-surface font-medium">Achchiq-chuchuk (Navro‘z)</span>
+<div class="flex items-center gap-2 mt-1">
+<span class="font-label-sm text-label-sm text-primary">35 000 so‘m × <span class="cart-row-qty">1</span></span>
+</div>
+</div>
+<div class="flex items-center gap-3">
+<span class="font-label-md text-label-md text-on-surface font-semibold whitespace-nowrap">35 000 so‘m</span>
+<button class="cart-remove-btn text-outline hover:text-error transition-colors p-1" data-remove-id="7" title="O‘chirish" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Financial Calculations -->
+<div class="pt-6 space-y-3">
+<div class="flex justify-between items-center text-on-surface-variant font-body-sm text-body-sm">
+<span>Oraliq hisob:</span>
+<span class="font-medium text-on-surface" id="subtotalVal">225 000 so‘m</span>
+</div>
+<div class="flex justify-between items-center text-on-surface-variant font-body-sm text-body-sm">
+<span class="flex items-center gap-1">
+                  Xizmat ko‘rsatish (10%):
+                  <span class="material-symbols-outlined text-[14px] text-tertiary-container" title="Restoran servis xizmati">info</span>
+</span>
+<span class="font-medium text-on-surface" id="serviceFeeVal">22 500 so‘m</span>
+</div>
+<div class="pt-4 flex justify-between items-baseline">
+<span class="font-headline-sm text-headline-sm text-on-surface">Jami to‘lov:</span>
+<span class="font-headline-sm text-headline-sm text-primary" id="totalVal">247 500 so‘m</span>
+</div>
+</div>
+<!-- Order Action CTA Buttons -->
+<div class="pt-6 flex flex-col gap-3">
+<button class="w-full bg-primary text-on-primary hover:bg-primary-fixed-dim py-3.5 px-6 font-label-md text-label-md uppercase tracking-[0.2em] transition-all flex items-center justify-center gap-2 shadow-sm" id="checkoutBtn" type="button">
+<span>Buyurtmani rasmiylashtirish</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+<button class="w-full bg-transparent hover:bg-surface-container text-on-surface-variant hover:text-primary py-2.5 px-4 font-label-sm text-label-sm uppercase tracking-[0.18em] transition-colors flex items-center justify-center gap-2" id="clearCartBtn" type="button">
+<span class="material-symbols-outlined text-[16px]">delete_sweep</span>
+<span>Savatchani tozalash</span>
+</button>
+</div>
+<!-- Dietary Security Footnote -->
+<div class="mt-6 pt-4 text-center">
+<span class="font-label-sm text-label-sm text-tertiary-container flex items-center justify-center gap-1">
+<span class="material-symbols-outlined text-[14px] text-primary">verified_user</span>
+                Barcha taomlar Halol talablarga muvofiq
+              </span>
+</div>
+</div>
+</aside>
+</div>
+</main>
+<!-- Bespoke Table Reservation Section ("Stolni band qilish") -->
+<section class="w-full bg-surface-container-lowest py-16 md:py-24" id="rezervatsiya">
+<div class="max-w-7xl mx-auto px-margin-mobile md:px-margin">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Column Left: Reservation Editorial Narrative -->
+<div class="lg:col-span-5 flex flex-col gap-6">
+<div class="flex items-center gap-3">
+<span class="w-8 h-[1px] bg-primary"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.25em] text-primary">Eksklyuziv Xizmat</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface tracking-tight">Stolni band qilish</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+              Oila a'zolaringiz va qadrdonlaringiz bilan unutilmas oqshomni oldindan rejalashtiring. Har bir mehmonimiz uchun maxsus samimiyat va oliy darajadagi e'zoz.
+            </p>
+<div class="space-y-4 pt-4">
+<div class="flex items-start gap-4">
+<span class="p-2 bg-surface-container text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">room_service</span>
+</span>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface text-[18px]">Shaxsiy Somelye va Konsyerj</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Taomingizga mos noyob sharbatlar va milliy choylar to‘plami taqdim etiladi.</p>
+</div>
+</div>
+<div class="flex items-start gap-4">
+<span class="p-2 bg-surface-container text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[20px]">meeting_room</span>
+</span>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface text-[18px]">Alohida Xosxonalar (VIP)</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Sharqona naqshlar bilan bezatilgan shaxsiy xonalar mavjud.</p>
+</div>
+</div>
+</div>
+<!-- Reservation Contact Line -->
+<div class="p-4 bg-surface-container-low flex items-center justify-between mt-2">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary text-[20px]">call</span>
+<span class="font-body-md text-body-md text-on-surface">+998 71 200 88 00</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Tezkor aloqa</span>
+</div>
+</div>
+<!-- Column Right: Form Interface with Minimal Hairstyle Architecture -->
+<div class="lg:col-span-7 bg-surface-container-low p-8 md:p-12 shadow-2xl">
+<form class="flex flex-col gap-6" id="reservationForm" onsubmit="event.preventDefault();">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Name -->
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-label-sm uppercase tracking-[0.18em] text-tertiary-container" for="resName">
+                    Ismingiz
+                  </label>
+<input class="bg-surface-container-high px-4 py-3.5 text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary transition-all" id="resName" placeholder="Ism-familiyangizni kiriting" required="" type="text"/>
+</div>
+<!-- Phone -->
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-label-sm uppercase tracking-[0.18em] text-tertiary-container" for="resPhone">
+                    Telefon raqamingiz
+                  </label>
+<input class="bg-surface-container-high px-4 py-3.5 text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary transition-all" id="resPhone" placeholder="+998 90 123 45 67" required="" type="tel"/>
+</div>
+<!-- Date -->
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-label-sm uppercase tracking-[0.18em] text-tertiary-container" for="resDate">
+                    Sana
+                  </label>
+<div class="relative">
+<input class="w-full bg-surface-container-high px-4 py-3.5 text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary transition-all" id="resDate" required="" type="date"/>
+</div>
+</div>
+<!-- Time -->
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-label-sm uppercase tracking-[0.18em] text-tertiary-container" for="resTime">
+                    Vaqt
+                  </label>
+<input class="bg-surface-container-high px-4 py-3.5 text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary transition-all" id="resTime" placeholder="18:00, 19:30..." required="" type="text"/>
+</div>
+</div>
+<!-- Guest Count Selection -->
+<div class="flex flex-col gap-3">
+<label class="font-label-sm text-label-sm uppercase tracking-[0.18em] text-tertiary-container">
+                  Mehmonlar soni
+                </label>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3" id="guestCountSelector">
+<button class="guest-btn py-3 px-3 text-center font-label-md text-label-md uppercase tracking-wider bg-surface-container-high text-primary hover:bg-surface-bright transition-colors" data-guests="1-2" type="button">
+                    1-2 kishi
+                  </button>
+<button class="guest-btn py-3 px-3 text-center font-label-md text-label-md uppercase tracking-wider bg-primary text-on-primary transition-colors" data-guests="3-4" type="button">
+                    3-4 kishi
+                  </button>
+<button class="guest-btn py-3 px-3 text-center font-label-md text-label-md uppercase tracking-wider bg-surface-container-high text-on-surface-variant hover:bg-surface-bright hover:text-on-surface transition-colors" data-guests="5-8" type="button">
+                    5-8 kishi
+                  </button>
+<button class="guest-btn py-3 px-3 text-center font-label-md text-label-md uppercase tracking-wider bg-surface-container-high text-on-surface-variant hover:bg-surface-bright hover:text-on-surface transition-colors" data-guests="marosim" type="button">
+                    Katta marosim
+                  </button>
+</div>
+</div>
+<!-- Special Wishes / Qo'shimcha istaklar -->
+<div class="flex flex-col gap-2">
+<label class="font-label-sm text-label-sm uppercase tracking-[0.18em] text-tertiary-container" for="resNotes">
+                  Qo‘shimcha istaklar
+                </label>
+<textarea class="bg-surface-container-high p-4 text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary transition-all resize-none" id="resNotes" placeholder="Alohida xona, sokin burchak yoki bayramona bezak..." rows="3"></textarea>
+</div>
+<!-- Submit Confirmation Button -->
+<button class="w-full mt-2 bg-primary text-on-primary hover:bg-primary-fixed-dim py-4 px-8 font-label-md text-label-md uppercase tracking-[0.2em] transition-all flex items-center justify-center gap-3 shadow-lg" id="submitReservationBtn" type="submit">
+<span class="material-symbols-outlined text-[20px]">calendar_month</span>
+<span>Band qilishni tasdiqlash</span>
+</button>
+<!-- Subtle Privacy Guarantee -->
+<span class="font-label-sm text-label-sm text-tertiary-container text-center">
+                Buyurtmangiz kelib tushishi bilan ma'murimiz 10 daqiqa ichida qo‘ng‘iroq qiladi.
+              </span>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Toast Notification for Interaction Feedback -->
+<div class="fixed bottom-6 right-6 z-50 transform translate-y-32 opacity-0 transition-all duration-300 pointer-events-none bg-surface-container-highest px-6 py-4 flex items-center gap-3 shadow-2xl" id="reugariToast">
+<span class="material-symbols-outlined text-primary text-[22px]" id="toastIcon">check_circle</span>
+<span class="font-body-md text-body-md text-on-surface" id="toastMessage">Taom savatchaga muvaffaqiyatli qo‘shildi!</span>
+</div>
+</div>
+</div>
+<script>
+  (function initReugariMenu() {
+    // Current Cart State
+    let cart = [
+      { id: 1, name: "To‘y oshi (Toshkentcha)", price: 95000, quantity: 2 },
+      { id: 7, name: "Achchiq-chuchuk (Navro‘z)", price: 35000, quantity: 1 }
+    ];
+
+    // DOM Elements
+    const cartList = document.getElementById('cartItemsList');
+    const subtotalEl = document.getElementById('subtotalVal');
+    const serviceFeeEl = document.getElementById('serviceFeeVal');
+    const totalEl = document.getElementById('totalVal');
+    const badgeEl = document.getElementById('cartItemCountBadge');
+    const toast = document.getElementById('reugariToast');
+    const toastMsg = document.getElementById('toastMessage');
+    const toastIcon = document.getElementById('toastIcon');
+
+    function formatUzbekCurrency(amount) {
+      return amount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ") + " so‘m";
+    }
+
+    function showToast(text, isError = false) {
+      if (!toast) return;
+      toastMsg.textContent = text;
+      toastIcon.textContent = isError ? 'info' : 'check_circle';
+      toastIcon.className = isError ? 'material-symbols-outlined text-error text-[22px]' : 'material-symbols-outlined text-primary text-[22px]';
+      toast.classList.remove('translate-y-32', 'opacity-0');
+      toast.classList.add('translate-y-0', 'opacity-100');
+      setTimeout(() => {
+        toast.classList.remove('translate-y-0', 'opacity-100');
+        toast.classList.add('translate-y-32', 'opacity-0');
+      }, 3000);
+    }
+
+    function updateCartUI() {
+      if (!cartList) return;
+      cartList.innerHTML = '';
+
+      if (cart.length === 0) {
+        cartList.innerHTML = `
+          <div class="py-8 text-center text-on-surface-variant font-body-sm text-body-sm">
+            <span class="material-symbols-outlined text-[32px] text-tertiary-container block mb-2">remove_shopping_cart</span>
+            Savatchangiz bo‘sh. Ro‘yxatdan lazzatli taomlarni tanlang.
+          </div>
+        `;
+        badgeEl.textContent = '0 ta taom';
+        subtotalEl.textContent = '0 so‘m';
+        serviceFeeEl.textContent = '0 so‘m';
+        totalEl.textContent = '0 so‘m';
+        return;
+      }
+
+      let subtotal = 0;
+      let totalItems = 0;
+
+      cart.forEach(item => {
+        const itemTotal = item.price * item.quantity;
+        subtotal += itemTotal;
+        totalItems += item.quantity;
+
+        const row = document.createElement('div');
+        row.className = "py-4 flex items-center justify-between gap-3 group";
+        row.innerHTML = `
+          <div class="flex flex-col flex-1">
+            <span class="font-body-md text-body-md text-on-surface font-medium">${item.name}</span>
+            <div class="flex items-center gap-2 mt-1">
+              <span class="font-label-sm text-label-sm text-primary">${formatUzbekCurrency(item.price)} &times; ${item.quantity}</span>
+            </div>
+          </div>
+          <div class="flex items-center gap-3">
+            <span class="font-label-md text-label-md text-on-surface font-semibold whitespace-nowrap">${formatUzbekCurrency(itemTotal)}</span>
+            <button type="button" class="cart-remove-btn text-outline hover:text-error transition-colors p-1" data-remove-id="${item.id}" title="O‘chirish">
+              <span class="material-symbols-outlined text-[18px]">close</span>
+            </button>
+          </div>
+        `;
+        cartList.appendChild(row);
+      });
+
+      const serviceFee = Math.round(subtotal * 0.10);
+      const total = subtotal + serviceFee;
+
+      badgeEl.textContent = `${totalItems} ta taom`;
+      subtotalEl.textContent = formatUzbekCurrency(subtotal);
+      serviceFeeEl.textContent = formatUzbekCurrency(serviceFee);
+      totalEl.textContent = formatUzbekCurrency(total);
+
+      // Re-attach removal handlers
+      document.querySelectorAll('.cart-remove-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          const removeId = parseInt(btn.getAttribute('data-remove-id'));
+          cart = cart.filter(i => i.id !== removeId);
+          updateCartUI();
+          showToast("Taom savatchadan olib tashlandi.");
+        });
+      });
+    }
+
+    // Attach Quantity + / - button triggers on Dish Cards
+    document.querySelectorAll('.qty-btn-plus').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const id = btn.getAttribute('data-id');
+        const display = document.querySelector(`.qty-display[data-id="${id}"]`);
+        if (display) {
+          let count = parseInt(display.textContent) || 1;
+          display.textContent = count + 1;
+        }
+      });
+    });
+
+    document.querySelectorAll('.qty-btn-minus').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const id = btn.getAttribute('data-id');
+        const display = document.querySelector(`.qty-display[data-id="${id}"]`);
+        if (display) {
+          let count = parseInt(display.textContent) || 1;
+          if (count > 1) {
+            display.textContent = count - 1;
+          }
+        }
+      });
+    });
+
+    // Add to cart buttons
+    document.querySelectorAll('.add-to-cart-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const id = parseInt(btn.getAttribute('data-id'));
+        const name = btn.getAttribute('data-name');
+        const price = parseInt(btn.getAttribute('data-price'));
+        const display = document.querySelector(`.qty-display[data-id="${id}"]`);
+        const qty = display ? parseInt(display.textContent) : 1;
+
+        const existingItem = cart.find(i => i.id === id);
+        if (existingItem) {
+          existingItem.quantity += qty;
+        } else {
+          cart.push({ id, name, price, quantity: qty });
+        }
+
+        // Reset local card quantity selector to 1
+        if (display) display.textContent = '1';
+
+        updateCartUI();
+        showToast(`"${name}" (${qty}x) savatchaga qo‘shildi!`);
+      });
+    });
+
+    // Clear Cart
+    const clearCartBtn = document.getElementById('clearCartBtn');
+    if (clearCartBtn) {
+      clearCartBtn.addEventListener('click', () => {
+        if (cart.length === 0) return;
+        cart = [];
+        updateCartUI();
+        showToast("Savatcha tozalandi.");
+      });
+    }
+
+    // Checkout CTA
+    const checkoutBtn = document.getElementById('checkoutBtn');
+    if (checkoutBtn) {
+      checkoutBtn.addEventListener('click', () => {
+        if (cart.length === 0) {
+          showToast("Iltimos, avval taom tanlang.", true);
+          return;
+        }
+        showToast("Buyurtmangiz qabul qilindi! Konsyerj tez orada bog‘lanadi.");
+      });
+    }
+
+    // Category Tabs Filter
+    const catButtons = document.querySelectorAll('.category-btn');
+    const dishCards = document.querySelectorAll('.dish-card');
+    const currentSectionTitle = document.getElementById('currentSectionTitle');
+
+    const categoryNamesUz = {
+      'milliy': 'Milliy taomlar va Shohona dasturxon',
+      'shorva': 'Sho‘rvalar va Bulyonlar',
+      'kabob': 'Tandir va Ko‘mir Kaboblari',
+      'salat': 'Yangi Salatlar va Gazaklar',
+      'shirinlik': 'Sharqona Shirinliklar va Holvalar',
+      'ichimlik': 'Sharbatlar, Damlamalar va Choylar'
+    };
+
+    catButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        catButtons.forEach(b => {
+          b.classList.remove('text-primary', 'bg-surface-container');
+          b.classList.add('text-on-surface-variant');
+        });
+        btn.classList.add('text-primary', 'bg-surface-container');
+        btn.classList.remove('text-on-surface-variant');
+
+        const cat = btn.getAttribute('data-cat');
+        if (currentSectionTitle && categoryNamesUz[cat]) {
+          currentSectionTitle.textContent = categoryNamesUz[cat];
+        }
+
+        dishCards.forEach(card => {
+          const cardCat = card.getAttribute('data-category');
+          if (cat === 'all' || cardCat === cat || (cat === 'milliy' && (cardCat === 'milliy' || cardCat === 'kabob' || cardCat === 'shorva' || cardCat === 'salat' || cardCat === 'shirinlik'))) {
+            card.classList.remove('hidden');
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+      });
+    });
+
+    // Tag Filter Toggles
+    const filterTags = document.querySelectorAll('.filter-tag');
+    filterTags.forEach(tag => {
+      tag.addEventListener('click', () => {
+        filterTags.forEach(t => {
+          t.classList.remove('bg-primary', 'text-on-primary');
+          t.classList.add('bg-surface-container-low', 'text-on-surface-variant');
+        });
+        tag.classList.remove('bg-surface-container-low', 'text-on-surface-variant');
+        tag.classList.add('bg-primary', 'text-on-primary');
+        showToast("Filtr yangilandi.");
+      });
+    });
+
+    // Search filter input
+    const searchInput = document.getElementById('menuSearchInput');
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        const query = e.target.value.toLowerCase().trim();
+        dishCards.forEach(card => {
+          const text = card.textContent.toLowerCase();
+          if (text.includes(query)) {
+            card.classList.remove('hidden');
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+      });
+    }
+
+    // Reservation Guests Selector
+    const guestBtns = document.querySelectorAll('.guest-btn');
+    guestBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        guestBtns.forEach(b => {
+          b.classList.remove('bg-primary', 'text-on-primary');
+          b.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+        });
+        btn.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+        btn.classList.add('bg-primary', 'text-on-primary');
+      });
+    });
+
+    // Reservation Form Submit Handler
+    const resForm = document.getElementById('reservationForm');
+    if (resForm) {
+      resForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        const nameInput = document.getElementById('resName');
+        const name = nameInput ? nameInput.value : '';
+        showToast(`Rahmat, ${name || 'hurmatli mehmon'}! Stol muvaffaqiyatli band qilindi.`);
+        resForm.reset();
+      });
+    }
+
+    // Initialize UI
+    updateCartUI();
+  })();
+</script></main><footer class="w-full bg-surface-container-lowest"><div class="w-full max-w-7xl mx-auto px-margin-mobile md:px-margin py-space-xl"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-lg mb-space-xl"><div class="flex flex-col space-y-space-sm"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm tracking-[0.2em] text-primary uppercase">REUGARI</span><span class="font-label-sm text-label-sm uppercase tracking-[0.25em] text-tertiary-container">Gastronomik Restoran</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">Ipak yo‘lining qadimiy me’moriy an’analari va zamonaviy o‘zbek pazandachiligining oliy uyg‘unligi.</p><div class="flex items-center gap-space-sm pt-space-xs"><a aria-label="Joylashuv" class="text-on-surface-variant hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">pin_drop</span></a><a aria-label="Aloqa" class="text-on-surface-variant hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">call</span></a><a aria-label="Elektron pochta" class="text-on-surface-variant hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">mail</span></a></div></div><div class="flex flex-col space-y-space-xs"><span class="font-label-md text-label-md text-primary uppercase tracking-[0.2em] mb-space-xs">Manzil va Aloqa</span><p class="font-body-sm text-body-sm text-on-surface-variant">Toshkent shahri, Mirobod tumani,<br/>Afrosiyob ko‘chasi, 14-uy</p><p class="font-body-sm text-body-sm text-on-surface-variant pt-space-xs">+998 71 200 88 00</p><p class="font-body-sm text-body-sm text-on-surface-variant">concierge@reugari.uz</p></div><div class="flex flex-col space-y-space-xs"><span class="font-label-md text-label-md text-primary uppercase tracking-[0.2em] mb-space-xs">Ish Vaqti</span><p class="font-body-sm text-body-sm text-on-surface-variant"><strong class="text-on-surface font-medium">Dushanba – Payshanba:</strong><br/>18:00 – 00:00</p><p class="font-body-sm text-body-sm text-on-surface-variant pt-space-xs"><strong class="text-on-surface font-medium">Juma – Yakshanba:</strong><br/>17:00 – 01:00</p><p class="font-label-sm text-label-sm text-tertiary-container uppercase pt-space-xs">Dress-kod: Elegant Casual</p></div><div class="flex flex-col space-y-space-sm"><span class="font-label-md text-label-md text-primary uppercase tracking-[0.2em]">Xabarnoma</span><p class="font-body-sm text-body-sm text-on-surface-variant">Mavsumiy t degustatsiya menyulari va maxsus oqshomlardan birinchilardan bo‘lib xabardor bo‘ling.</p><form class="flex flex-col gap-space-xs" onsubmit="event.preventDefault();"><div class="bg-surface-container-low px-space-sm py-space-xs flex items-center"><input class="bg-transparent w-full text-on-surface placeholder:text-outline focus:outline-none font-body-sm text-body-sm" placeholder="Elektron manzilingiz" type="email"/><button class="text-primary hover:text-primary-fixed-dim transition-colors" type="submit"><span class="material-symbols-outlined text-[18px]">arrow_forward</span></button></div><span class="font-label-sm text-label-sm text-tertiary-container">Maxfiylik siyosati kafolatlanadi.</span></form></div></div><div class="pt-space-md flex flex-col md:flex-row items-center justify-between gap-space-sm"><span class="font-label-sm text-label-sm uppercase tracking-[0.15em] text-outline">© 2025 REUGARI. Barcha huquqlar himoyalangan.</span><div class="flex items-center gap-space-md"><a class="font-label-sm text-label-sm uppercase tracking-[0.15em] text-outline hover:text-primary transition-colors" data-path="maxfiylik-siyosati" href="#">Maxfiylik siyosati</a><a class="font-label-sm text-label-sm uppercase tracking-[0.15em] text-outline hover:text-primary transition-colors" data-path="foydalanish-shartlari" href="#">Foydalanish shartlari</a></div></div></div></footer></body></html>

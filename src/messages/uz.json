@@ -1,0 +1,73 @@
+{
+  "brand": {
+    "name": "REUGARI",
+    "tagline": "Gastronomik Restoran",
+    "location": "Toshkent",
+    "subtitle": "Boshqaruv Paneli • Toshkent",
+    "openStatus": "Dasturxon ochiq",
+    "openHours": "11:00 — 23:00"
+  },
+  "nav": {
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "menu": "Menyu",
+    "reservations": "Bron qilish",
+    "contact": "Aloqa",
+    "cart": "Savatcha",
+    "bookTable": "Stolni band qilish",
+    "admin": "Boshqaruv"
+  },
+  "adminNav": {
+    "overview": "Umumiy ko‘rinish",
+    "orders": "Buyurtmalar",
+    "reservations": "Bronlar",
+    "dishes": "Taomlar menyusi",
+    "categories": "Kategoriyalar",
+    "customers": "Mijozlar",
+    "gallery": "Galereya va kontent",
+    "content": "Kontent",
+    "settings": "Sozlamalar",
+    "logout": "Tizimdan chiqish"
+  },
+  "common": {
+    "currency": "so‘m",
+    "portion": "porsiya",
+    "search": "Qidiruv...",
+    "filter": "Filtr",
+    "all": "Barchasi",
+    "save": "Saqlash",
+    "cancel": "Bekor qilish",
+    "delete": "O‘chirish",
+    "edit": "Tahrirlash",
+    "add": "Qo‘shish",
+    "loading": "Yuklanmoqda...",
+    "subtotal": "Oraliq hisob",
+    "serviceFee": "Xizmat ko‘rsatish (10%)",
+    "deliveryFee": "Yetkazib berish xizmati",
+    "total": "Jami to‘lov",
+    "checkout": "Buyurtmani rasmiylashtirish",
+    "clearCart": "Savatchani tozalash",
+    "emptyCart": "Savatchangiz bo‘sh. Ro‘yxatdan lazzatli taomlarni tanlang.",
+    "addToCart": "Savatchaga qo‘shish",
+    "halalBadge": "100% Halol ingredientlar",
+    "chefSpecial": "Oshpaz tavsiyasi",
+    "newDish": "Yangi taomlar",
+    "halalCertified": "Halol sertifikatlangan"
+  },
+  "categories": {
+    "milliy": "Milliy taomlar",
+    "shorva": "Sho‘rvalar",
+    "kabob": "Kaboblar",
+    "salat": "Salatlar",
+    "shirinlik": "Shirinliklar",
+    "ichimlik": "Ichimliklar"
+  },
+  "contact": {
+    "address": "Toshkent shahri, Mirobod tumani, Afrosiyob ko‘chasi, 14-uy",
+    "phone": "+998 71 200 88 00",
+    "email": "concierge@reugari.uz",
+    "weekdays": "Dushanba – Payshanba: 18:00 – 00:00",
+    "weekends": "Juma – Yakshanba: 17:00 – 01:00",
+    "dressCode": "Dress-kod: Elegant Casual"
+  }
+}

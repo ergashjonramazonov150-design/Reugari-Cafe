@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-serif: "EB Garamond", serif;
+  --font-sans: "Inter", sans-serif;
+
+  --color-surface: #131311;
+  --color-surface-dim: #131311;
+  --color-surface-bright: #3a3937;
+  --color-surface-container-lowest: #0e0e0c;
+  --color-surface-container-low: #1c1c1a;
+  --color-surface-container: #20201e;
+  --color-surface-container-high: #2a2a28;
+  --color-surface-container-highest: #353532;
+  --color-surface-variant: #353532;
+
+  --color-on-surface: #e5e2de;
+  --color-on-surface-variant: #d0c5b6;
+  --color-outline: #998f81;
+  --color-outline-variant: #4d463a;
+
+  --color-primary: #e4c287;
+  --color-primary-container: #b99a63;
+  --color-on-primary: #412d01;
+  --color-on-primary-container: #473204;
+  --color-primary-fixed: #ffdea7;
+  --color-primary-fixed-dim: #e4c287;
+
+  --color-secondary: #cbc6be;
+  --color-secondary-container: #4c4943;
+  --color-on-secondary: #32302b;
+
+  --color-tertiary: #cec5b7;
+  --color-tertiary-container: #a59d90;
+  --color-on-tertiary: #353026;
+
+  --color-reugari-charcoal: #171715;
+  --color-reugari-espresso: #24221D;
+  --color-reugari-gold: #B99A63;
+  --color-reugari-ivory: #E8DDC7;
+  --color-reugari-beige: #A99A81;
+  --color-reugari-umber: #383329;
+}
+
+@layer base {
+  * {
+    border-color: rgba(185, 154, 99, 0.15);
+  }
+
+  body {
+    background-color: #171715;
+    color: #E8DDC7;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom scrollbars and styling */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #171715;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #353532;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #b99a63;
+}

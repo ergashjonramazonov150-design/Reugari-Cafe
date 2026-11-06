@@ -1,0 +1,73 @@
+{
+  "brand": {
+    "name": "REUGARI",
+    "tagline": "Gastronomic Restaurant",
+    "location": "Tashkent",
+    "subtitle": "Admin Dashboard • Tashkent",
+    "openStatus": "Open for Dining",
+    "openHours": "11:00 — 23:00"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "menu": "Menu",
+    "reservations": "Reservations",
+    "contact": "Contact",
+    "cart": "Cart",
+    "bookTable": "Reserve a Table",
+    "admin": "Admin"
+  },
+  "adminNav": {
+    "overview": "Overview",
+    "orders": "Orders",
+    "reservations": "Reservations",
+    "dishes": "Menu Dishes",
+    "categories": "Categories",
+    "customers": "Customers",
+    "gallery": "Gallery & Content",
+    "content": "Content",
+    "settings": "Settings",
+    "logout": "Log Out"
+  },
+  "common": {
+    "currency": "UZS",
+    "portion": "portion",
+    "search": "Search...",
+    "filter": "Filter",
+    "all": "All",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "loading": "Loading...",
+    "subtotal": "Subtotal",
+    "serviceFee": "Service Fee (10%)",
+    "deliveryFee": "Delivery Fee",
+    "total": "Total Amount",
+    "checkout": "Proceed to Checkout",
+    "clearCart": "Clear Cart",
+    "emptyCart": "Your cart is empty. Choose exquisite dishes from the menu.",
+    "addToCart": "Add to Cart",
+    "halalBadge": "100% Halal Ingredients",
+    "chefSpecial": "Chef's Special",
+    "newDish": "New Dishes",
+    "halalCertified": "Halal Certified"
+  },
+  "categories": {
+    "milliy": "National Dishes",
+    "shorva": "Soups",
+    "kabob": "Kebabs",
+    "salat": "Salads",
+    "shirinlik": "Desserts",
+    "ichimlik": "Beverages"
+  },
+  "contact": {
+    "address": "Tashkent city, Mirobod district, Afrosiyob street, 14",
+    "phone": "+998 71 200 88 00",
+    "email": "concierge@reugari.uz",
+    "weekdays": "Monday – Thursday: 18:00 – 00:00",
+    "weekends": "Friday – Sunday: 17:00 – 01:00",
+    "dressCode": "Dress Code: Elegant Casual"
+  }
+}
